@@ -14,12 +14,12 @@ class GradientContainer extends StatelessWidget {
             body: Container(
               decoration: const BoxDecoration(
                 gradient: LinearGradient(colors: [
-                  Color.fromARGB(255, 2, 23, 80),
+                  Color.fromARGB(236, 172, 41, 41),
                   Color.fromARGB(244, 45, 7, 98)
                 ], begin: Alignment.topLeft, end: Alignment.bottomRight),
               ),
               child:  Center(
-                  child: StyledText("Hello, world !!"),
+                  child: Image.asset("assets/images/dice-3.png",width: 200,),
             ),
           )),
     ));
