@@ -1,3 +1,4 @@
+import 'package:adv_basic/start_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,6 +23,6 @@ class _HomePageState extends State<HomePage> {
                         gradient: LinearGradient(colors: [
       Color.fromARGB(199, 44, 16, 90),
       Color.fromARGB(92, 43, 4, 87),
-    ],begin: Alignment.bottomCenter,end: Alignment.bottomRight))))));
+    ], begin: Alignment.bottomLeft, end: Alignment.bottomRight)),child: StartScreen(),))));
   }
 }
